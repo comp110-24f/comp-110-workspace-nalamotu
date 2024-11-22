@@ -18,7 +18,8 @@ def contains_char(secret_word: str, char_guess: str) -> bool:
     check: bool = False
     while index < len(secret_word):
         if secret_word[index] == char_guess:
-            count += 1  # keeps track of the occurunces of the character in the particular word, 0 means it never occurs
+            count += 1  # keeps track of the occurunces of the character in the
+            # particular word, 0 means it never occurs
             check = True
         index += 1
         if count == 0:

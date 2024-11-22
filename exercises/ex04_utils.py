@@ -16,7 +16,8 @@ def all(num_list: list[int], num: int) -> bool:
             idx += 1
         if count == len(
             num_list
-        ):  # if count and length of the list are the same, all numbers in the list are equal to the given integer
+        ):  # if count and length of the list are the same, all numbers in the list are
+            # equal to the given integer
             return True
         else:
             return False
